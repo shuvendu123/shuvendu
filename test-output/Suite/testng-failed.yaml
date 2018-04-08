@@ -1,0 +1,12 @@
+name: Failed suite [Suite]
+threadCount: -1
+configFailurePolicy: skip
+tests:
+  - name: Test(failed)
+    classes:
+      - name: testNG.DependsOnTest
+        includedMethods:
+          - login
+          - logout
+          - test2
+
